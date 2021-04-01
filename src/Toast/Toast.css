@@ -1,0 +1,24 @@
+.toast {
+    padding: 5px 15px 5px 15px;
+    margin-top: 3px;
+    background: rgb(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+
+    animation-name: showe;
+    animation-duration: 0.5s;
+}
+  
+  @keyframes showe {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+        opacity: 0.5;
+    }
+  }
+
